@@ -1,0 +1,108 @@
+\hypertarget{new_window_8h_source}{}\doxysection{new\+Window.\+h}
+\label{new_window_8h_source}\index{C:/Users/moham/Downloads/drive-\/download-\/20230102T144703Z-\/001-\/20230102T173558Z-\/001/drive-\/download-\/20230102T144703Z-\/001/newWindow.h@{C:/Users/moham/Downloads/drive-\/download-\/20230102T144703Z-\/001-\/20230102T173558Z-\/001/drive-\/download-\/20230102T144703Z-\/001/newWindow.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ NEWWINDOW\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ NEWWINDOW\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QDialog>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include<QMessageBox>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include"{}database.h"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include"{}admin.h"{}}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include<QListWidgetItem>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <QTabWidget>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include<QTableWidgetItem>}}
+\DoxyCodeLine{00011\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_ui}{Ui}}\ \{}
+\DoxyCodeLine{00018\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classnew_window}{newWindow}};}
+\DoxyCodeLine{00019\ \}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classnew_window}{newWindow}}\ :\ \textcolor{keyword}{public}\ QDialog}
+\DoxyCodeLine{00022\ \{}
+\DoxyCodeLine{00023\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{class_data_base}{DataBase}}\ \mbox{\hyperlink{classnew_window_ae37dc0a09aaadffba83e983953e803e0}{database}};}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classnew_window}{newWindow}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00028\ \ \ \ \ \mbox{\hyperlink{classnew_window_af5ebcaf25d3c92175e3e47c952ffd8c4}{\string~newWindow}}();}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{keyword}{public}\ slots:}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_ab7b633b42a7870b245af71ee73a4b1ab}{on\_Login\_1\_clicked}}();}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a7f53c96c41764fdaf3bd468bd2b052cb}{on\_Student\_clicked}}();}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a1cb4b32b7944a8cba006f7eb60c8b3aa}{on\_Professor\_clicked}}();}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a63b4bcd27c00de57fa5cc549fb2811fe}{on\_Courses\_clicked}}();}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a92a57bbd825365b4128fa37fc7b1d04e}{on\_pushButton\_clicked}}();}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a66d87cb65d22d94f4e0244cea907eb4c}{on\_AddStudent\_clicked}}();}
+\DoxyCodeLine{00070\ }
+\DoxyCodeLine{00075\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_ad09ec27f7b0066a24f7f78044a67a341}{on\_prev\_clicked}}();}
+\DoxyCodeLine{00076\ }
+\DoxyCodeLine{00081\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a2dfa9fb8468de782516125d63d5f8d52}{on\_Done\_clicked}}();}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00087\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a8253c4e97149ba34f1d190b1204be511}{on\_pushButton\_2\_clicked}}();}
+\DoxyCodeLine{00088\ }
+\DoxyCodeLine{00093\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a50242c5fa0cf97174d4f509e7cd4009f}{on\_AddProfessor\_clicked}}();}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00099\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a7b277d130db2c40614921b934ebe7bda}{on\_prev\_2\_clicked}}();}
+\DoxyCodeLine{00100\ }
+\DoxyCodeLine{00105\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a9cd87bab01450148862ad0a456165f71}{on\_Done\_2\_clicked}}();}
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00111\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a41d49c800dac32bd7b3dd280e2a51814}{on\_pushButton\_3\_clicked}}();}
+\DoxyCodeLine{00112\ }
+\DoxyCodeLine{00118\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a279db3761377d5d196cef9061e645c5f}{on\_Confirm\_clicked}}();}
+\DoxyCodeLine{00119\ }
+\DoxyCodeLine{00125\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_acd73b61dd0ba545e82f3977711fcbe8f}{on\_AddCourse\_clicked}}();}
+\DoxyCodeLine{00126\ }
+\DoxyCodeLine{00132\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_ac46b11617028a8268cac64fdaca552b4}{on\_listWidget\_itemPressed}}(QListWidgetItem\ *item);}
+\DoxyCodeLine{00133\ }
+\DoxyCodeLine{00138\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a61133144d3c484100c29fed96fb853fd}{on\_Search\_textEdited}}(\textcolor{keyword}{const}\ QString\ \&arg1);}
+\DoxyCodeLine{00139\ }
+\DoxyCodeLine{00145\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a272b28b843ae8b58a355072d8f618d90}{on\_listWidget\_2\_itemPressed}}(QListWidgetItem\ *item);}
+\DoxyCodeLine{00146\ }
+\DoxyCodeLine{00152\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a24ccb673267a3f0948f1a03c0d2fae91}{on\_ProfessorsList\_itemPressed}}(QListWidgetItem\ *item);}
+\DoxyCodeLine{00153\ }
+\DoxyCodeLine{00158\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a7166a8fc07f734302c6fb564672ec0a8}{on\_Search\_2\_textEdited}}(\textcolor{keyword}{const}\ QString\ \&arg1);}
+\DoxyCodeLine{00159\ }
+\DoxyCodeLine{00165\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a553977d6e88dd89e4db6a2b6a722281a}{on\_SearchList\_itemPressed}}(QListWidgetItem\ *item);}
+\DoxyCodeLine{00166\ }
+\DoxyCodeLine{00172\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a91d847484bdf14eaba4e27dead2a7fd3}{on\_Courses\_listWidget\_itemPressed}}(QListWidgetItem\ *item);}
+\DoxyCodeLine{00173\ }
+\DoxyCodeLine{00179\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_ad082635b1bd2340100006e65d020da25}{on\_Confirm\_2\_clicked}}();}
+\DoxyCodeLine{00180\ }
+\DoxyCodeLine{00185\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_aafbe59878bc4585f3cd03d2b93e37296}{on\_AddCourse\_2\_clicked}}();}
+\DoxyCodeLine{00186\ }
+\DoxyCodeLine{00191\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_af89c370d4229643f935a4bd474fc1fb8}{on\_Search\_3\_textEdited}}(\textcolor{keyword}{const}\ QString\ \&arg1);}
+\DoxyCodeLine{00192\ }
+\DoxyCodeLine{00198\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a39b9e3a3688b03c95f84a61348ac721b}{on\_listWidget\_3\_itemPressed}}(QListWidgetItem\ *item);}
+\DoxyCodeLine{00199\ }
+\DoxyCodeLine{00208\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a25b3f6cb432ba62e7bf040ef8a8fd324}{on\_AddStudent\_3\_clicked}}();}
+\DoxyCodeLine{00209\ }
+\DoxyCodeLine{00216\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_aef9ab866920e6247f97197808e7226b0}{on\_AddProfessor\_3\_clicked}}();}
+\DoxyCodeLine{00217\ }
+\DoxyCodeLine{00222\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_af679819b2a3a1fd026c2b9ca51d45be3}{on\_export\_2\_clicked}}();}
+\DoxyCodeLine{00223\ }
+\DoxyCodeLine{00228\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_aa5a17d516cb830bdaddd25c04d7247a9}{on\_listWidget\_4\_itemPressed}}(QListWidgetItem\ *item);}
+\DoxyCodeLine{00229\ }
+\DoxyCodeLine{00234\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a1ed08a3274c68b7fc42167db8b679c4b}{on\_listWidget\_profcourses\_itemPressed}}(QListWidgetItem\ *item);}
+\DoxyCodeLine{00235\ }
+\DoxyCodeLine{00240\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a9e09477c66fac1a84f30302c744ec12c}{on\_listWidget\_courses\_itemPressed}}(QListWidgetItem\ *item);}
+\DoxyCodeLine{00241\ }
+\DoxyCodeLine{00246\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a79f77111955893e5fba50867f7fcb4b1}{on\_tableWidget\_itemClicked}}(QTableWidgetItem\ *item);}
+\DoxyCodeLine{00247\ }
+\DoxyCodeLine{00252\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_a8caee0cd736f6fad66e249ce484025f4}{on\_comboBoxT\_currentIndexChanged}}(\textcolor{keywordtype}{int}\ index);}
+\DoxyCodeLine{00253\ }
+\DoxyCodeLine{00258\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classnew_window_acbcc9d2bde2da3a99fe66d275616d1f3}{on\_CourseNameResult\_currentTextChanged}}(\textcolor{keyword}{const}\ QString\ \&arg1);}
+\DoxyCodeLine{00259\ }
+\DoxyCodeLine{00260\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00261\ }
+\DoxyCodeLine{00262\ \ \ \ \ Ui::newWindow\ *ui;}
+\DoxyCodeLine{00263\ \};}
+\DoxyCodeLine{00264\ }
+\DoxyCodeLine{00265\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ NEWWINDOW\_H}}
+
+\end{DoxyCode}

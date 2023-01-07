@@ -1,0 +1,160 @@
+\hypertarget{class_professor}{}\doxysection{Professor Class Reference}
+\label{class_professor}\index{Professor@{Professor}}
+
+
+{\ttfamily \#include $<$professor.\+h$>$}
+
+Inheritance diagram for Professor\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_professor}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_professor_a2282bcdccfbbfa781deb4f91e7539796}{Professor}} (QString fn, QString ln, int age, QString mob, QString em, QString pass, QString us, QString prof\+\_\+title)
+\item 
+void \mbox{\hyperlink{class_professor_ae21e9cfe16c7ba5fb749a4ec71c6b95f}{set\+\_\+title}} (QString prof\+\_\+title)
+\item 
+void \mbox{\hyperlink{class_professor_a132239cf6c0555a1038ce0a5167f9458}{set\+\_\+course}} (\mbox{\hyperlink{class_course}{Course}} $\ast$prof\+\_\+course)
+\item 
+QString \mbox{\hyperlink{class_professor_af99b2eba090270774a294668a2f5084d}{get\+\_\+title}} ()
+\item 
+QVector$<$ \mbox{\hyperlink{class_course}{Course}} $\ast$ $>$ \mbox{\hyperlink{class_professor_a76d236f113d757b8b51715064c6a50f9}{get\+\_\+course}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_person}{Person}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_person_a713cf786742743f7233eaa0c405e940e}{Person}} (QString f, QString l, int a, QString m, QString e, QString p, QString u)
+\item 
+void \mbox{\hyperlink{class_person_ab09a39604b80efc15b5c7060f19c69ee}{set\+\_\+firstname}} (QString fn)
+\item 
+QString \mbox{\hyperlink{class_person_a0975275606c343fa357feee37e50b638}{get\+\_\+firstname}} ()
+\item 
+void \mbox{\hyperlink{class_person_afba4f3284ab4838cd9cd923115257810}{set\+\_\+lastname}} (QString ln)
+\item 
+QString \mbox{\hyperlink{class_person_aad6d9f702b0c2c8593cfeeeef5a78695}{get\+\_\+lastname}} ()
+\item 
+void \mbox{\hyperlink{class_person_a6f595b05e50d8fedcc17f33db441512f}{set\+\_\+age}} (int ag)
+\item 
+int \mbox{\hyperlink{class_person_aca80d4f361d5ea23619ccddfdc393ad4}{get\+\_\+age}} ()
+\item 
+void \mbox{\hyperlink{class_person_adc2b2fa465414de4a5c876a0a7173986}{set\+\_\+mobile}} (QString mob)
+\item 
+QString \mbox{\hyperlink{class_person_a9e836bb88747b98f53d72f06b6ca21b3}{get\+\_\+mobile}} ()
+\item 
+void \mbox{\hyperlink{class_person_a84112b144f2d7baaddb055a71bf2e691}{set\+\_\+email}} (QString em)
+\item 
+QString \mbox{\hyperlink{class_person_a79b5fb550543bfdb8def2248e61351f7}{get\+\_\+email}} ()
+\item 
+void \mbox{\hyperlink{class_person_a88213f05361a8e1ee9c6286b0ba361ce}{set\+\_\+password}} (QString pass)
+\item 
+QString \mbox{\hyperlink{class_person_aa39282898395e484ca9ac3f87f51526d}{get\+\_\+password}} ()
+\item 
+void \mbox{\hyperlink{class_person_a9fabc8254bc14169bb2dbacaf1bc419d}{set\+\_\+username}} (QString un)
+\item 
+QString \mbox{\hyperlink{class_person_a24dd2528100473a8ff4c58802349a6ac}{get\+\_\+username}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this is the brief description for the \mbox{\hyperlink{class_professor}{Professor}} class.
+
+this class inherits person class and all his basic information which consist of his first name, last name, mobile, email, age, password and username in addition to title of the professor and his courses 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_professor_a2282bcdccfbbfa781deb4f91e7539796}\label{class_professor_a2282bcdccfbbfa781deb4f91e7539796}} 
+\index{Professor@{Professor}!Professor@{Professor}}
+\index{Professor@{Professor}!Professor@{Professor}}
+\doxysubsubsection{\texorpdfstring{Professor()}{Professor()}}
+{\footnotesize\ttfamily Professor\+::\+Professor (\begin{DoxyParamCaption}\item[{QString}]{fn,  }\item[{QString}]{ln,  }\item[{int}]{age,  }\item[{QString}]{mob,  }\item[{QString}]{em,  }\item[{QString}]{pass,  }\item[{QString}]{us,  }\item[{QString}]{prof\+\_\+title }\end{DoxyParamCaption})}
+
+Brief desc
+
+Parameterized constructor 
+\begin{DoxyParams}{Parameters}
+{\em fn} & describes first name of the professor \\
+\hline
+{\em ln} & describes last name of the professor \\
+\hline
+{\em age} & describes age of the professor \\
+\hline
+{\em mob} & describes mobile of the professor \\
+\hline
+{\em em} & describes email of the professor \\
+\hline
+{\em pass} & describes password of the professor \\
+\hline
+{\em us} & describes username of the professor \\
+\hline
+{\em prof\+\_\+title} & describes title of the professor \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_professor_a76d236f113d757b8b51715064c6a50f9}\label{class_professor_a76d236f113d757b8b51715064c6a50f9}} 
+\index{Professor@{Professor}!get\_course@{get\_course}}
+\index{get\_course@{get\_course}!Professor@{Professor}}
+\doxysubsubsection{\texorpdfstring{get\_course()}{get\_course()}}
+{\footnotesize\ttfamily QVector$<$ \mbox{\hyperlink{class_course}{Course}} $\ast$ $>$ Professor\+::get\+\_\+course (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that returns vector of the professor courses \begin{DoxyReturn}{Returns}
+vector of the professor courses 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_professor_af99b2eba090270774a294668a2f5084d}\label{class_professor_af99b2eba090270774a294668a2f5084d}} 
+\index{Professor@{Professor}!get\_title@{get\_title}}
+\index{get\_title@{get\_title}!Professor@{Professor}}
+\doxysubsubsection{\texorpdfstring{get\_title()}{get\_title()}}
+{\footnotesize\ttfamily QString Professor\+::get\+\_\+title (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that returns title of the professor \begin{DoxyReturn}{Returns}
+title 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_professor_a132239cf6c0555a1038ce0a5167f9458}\label{class_professor_a132239cf6c0555a1038ce0a5167f9458}} 
+\index{Professor@{Professor}!set\_course@{set\_course}}
+\index{set\_course@{set\_course}!Professor@{Professor}}
+\doxysubsubsection{\texorpdfstring{set\_course()}{set\_course()}}
+{\footnotesize\ttfamily void Professor\+::set\+\_\+course (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_course}{Course}} $\ast$}]{prof\+\_\+course }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that stores first name of the professor \begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$prof\+\_\+course} & describes professor course \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_professor_ae21e9cfe16c7ba5fb749a4ec71c6b95f}\label{class_professor_ae21e9cfe16c7ba5fb749a4ec71c6b95f}} 
+\index{Professor@{Professor}!set\_title@{set\_title}}
+\index{set\_title@{set\_title}!Professor@{Professor}}
+\doxysubsubsection{\texorpdfstring{set\_title()}{set\_title()}}
+{\footnotesize\ttfamily void Professor\+::set\+\_\+title (\begin{DoxyParamCaption}\item[{QString}]{prof\+\_\+title }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that stores title of the professor \begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em prof\+\_\+title} & describes title of the professor \\
+\hline
+\end{DoxyParams}

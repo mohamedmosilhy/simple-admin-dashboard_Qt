@@ -1,0 +1,53 @@
+\hypertarget{course_8h_source}{}\doxysection{course.\+h}
+\label{course_8h_source}\index{C:/Users/moham/Downloads/drive-\/download-\/20230102T144703Z-\/001-\/20230102T173558Z-\/001/drive-\/download-\/20230102T144703Z-\/001/course.h@{C:/Users/moham/Downloads/drive-\/download-\/20230102T144703Z-\/001-\/20230102T173558Z-\/001/drive-\/download-\/20230102T144703Z-\/001/course.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include"{}professor.h"{}}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include"{}student.h"{}}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include<map>}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00009\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_course}{Course}}\ \{}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00011\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ total\_grade;}
+\DoxyCodeLine{00012\ \ \ \ \ \ \ \ \ QString\ name;}
+\DoxyCodeLine{00013\ \ \ \ \ \ \ \ \ QString\ hall;}
+\DoxyCodeLine{00014\ \ \ \ \ \ \ \ \ QString\ time;}
+\DoxyCodeLine{00015\ \ \ \ \ \ \ \ \ QString\ code;}
+\DoxyCodeLine{00016\ \ \ \ \ \ \ \ \ QVector<Professor*>\ prof;}
+\DoxyCodeLine{00017\ \ \ \ \ \ \ \ \ QVector<pair<Student*,int>>\ std;}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_course}{Course}}\ (QString\ Course\_name,\ QString\ Course\_hall,\ QString\ Course\_time,\ QString\ Course\_code,\textcolor{keywordtype}{int}\ grade);}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_course_a734ff643a2ae43f0e09e440f93291609}{get\_total\_grade}}();}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_course_adbb067654b8eb5b234c7a8c0a1382349}{set\_name}}\ (QString\ Course\_name);}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_course_af8b65428c9ae6a8ec734efca06b90dfe}{set\_hall}}\ (QString\ Course\_hall);}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00056\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_course_a6de67b7e33f40ea99cf57b4966437bcd}{set\_time}}\ (QString\ Course\_time);}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_course_a1f901728345824aa71af40809e17ee88}{set\_code}}\ (QString\ Course\_code);}
+\DoxyCodeLine{00064\ }
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_course_adf0807dac341a1c5d50773dc7539e18a}{set\_prof}}\ (\mbox{\hyperlink{class_professor}{Professor}}\ *Course\_prof);}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00078\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_course_a3a8f31aac0ca8fbb78100197a5fe5785}{set\_std}}\ (\mbox{\hyperlink{class_student}{Student}}\ *Course\_std,\ \textcolor{keywordtype}{int}\ grade);}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00085\ \ \ \ \ \ \ \ \ QString\ \mbox{\hyperlink{class_course_ac00efcda7e4bbcbe257d4e2c22cd4399}{get\_name}}\ ();}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00092\ \ \ \ \ \ \ \ \ QString\ \mbox{\hyperlink{class_course_a8cc40c7ce9905b819be0a25e350785b8}{get\_hall}}\ ();}
+\DoxyCodeLine{00093\ }
+\DoxyCodeLine{00099\ \ \ \ \ \ \ \ \ QString\ \mbox{\hyperlink{class_course_ac8f55e96cc4655d4f4ca445a6dfa1f3c}{get\_time}}\ ();}
+\DoxyCodeLine{00100\ }
+\DoxyCodeLine{00106\ \ \ \ \ \ \ \ \ QString\ \mbox{\hyperlink{class_course_a7c0f2dbded4ff85145ad2a5ebca7d060}{get\_code}}\ ();}
+\DoxyCodeLine{00107\ }
+\DoxyCodeLine{00113\ \ \ \ \ \ \ \ \ QVector<Professor*>\ \mbox{\hyperlink{class_course_a7e5528299d88e3f5bd24837646502bec}{get\_prof}}\ ();}
+\DoxyCodeLine{00114\ }
+\DoxyCodeLine{00120\ \ \ \ \ \ \ \ \ QVector<pair<Student*,int>>\ \mbox{\hyperlink{class_course_aadb9818402dca82713ddca87d140547b}{get\_std}}\ ();}
+\DoxyCodeLine{00121\ }
+\DoxyCodeLine{00129\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_course_a8ffe1a76bd36bdbf74622cf8aa1f6b69}{update}}\ (\mbox{\hyperlink{class_student}{Student}}\ *Course\_std,\ \textcolor{keywordtype}{int}\ grade,\textcolor{keywordtype}{int}\ index);}
+\DoxyCodeLine{00130\ \};}
+\DoxyCodeLine{00131\ }
+
+\end{DoxyCode}

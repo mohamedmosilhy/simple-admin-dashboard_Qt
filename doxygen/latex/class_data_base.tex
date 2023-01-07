@@ -1,0 +1,338 @@
+\hypertarget{class_data_base}{}\doxysection{Data\+Base Class Reference}
+\label{class_data_base}\index{DataBase@{DataBase}}
+
+
+{\ttfamily \#include $<$database.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_data_base_a9fbd4936704ce4de391f92e92a072074}{Data\+Base}} ()
+\item 
+\mbox{\hyperlink{class_course}{Course}} $\ast$ \mbox{\hyperlink{class_data_base_ab21ea5a68866778fafcd93a253514ebf}{search\+\_\+for\+\_\+course}} (QString s)
+\item 
+\mbox{\hyperlink{class_student}{Student}} $\ast$ \mbox{\hyperlink{class_data_base_a71b65e71ae693ebf5644de45476d6ec7}{search\+\_\+for\+\_\+student}} (QString s)
+\item 
+\mbox{\hyperlink{class_student}{Student}} $\ast$ \mbox{\hyperlink{class_data_base_a71898f1095d8a38bdfd892679e93df45}{search\+\_\+for\+\_\+studentf}} (QString s)
+\item 
+\mbox{\hyperlink{class_professor}{Professor}} $\ast$ \mbox{\hyperlink{class_data_base_acaa88883d913c06bea65c74b1e8c2da9}{search\+\_\+for\+\_\+professorf}} (QString s)
+\item 
+\mbox{\hyperlink{class_professor}{Professor}} $\ast$ \mbox{\hyperlink{class_data_base_ad352f97a560365ba380300e29ca4e758}{search\+\_\+for\+\_\+professor}} (QString s)
+\item 
+int \mbox{\hyperlink{class_data_base_a18edb4e330088744afbbb130d80b8afe}{f\+\_\+st\+\_\+in\+\_\+\+Table}} (QString y, QVector$<$ QString $>$ x)
+\item 
+bool \mbox{\hyperlink{class_data_base_ab101d82045e88b9c5b5bc3654c38c911}{student\+\_\+username\+\_\+exist}} (QString username)
+\item 
+bool \mbox{\hyperlink{class_data_base_a100ff2fde66b1351bc9e5cc1e88cbe47}{student\+\_\+mobile\+\_\+exist}} (QString mobile)
+\item 
+bool \mbox{\hyperlink{class_data_base_acd3e7549d95c8ab1cbf79d104bb43622}{student\+\_\+email\+\_\+exist}} (QString email)
+\item 
+bool \mbox{\hyperlink{class_data_base_a3a0fd55dad49a3ad89e3a641121f36a3}{professor\+\_\+username\+\_\+exist}} (QString username)
+\item 
+bool \mbox{\hyperlink{class_data_base_a48447584dec6bc1ac721ab5d82bbe2da}{professor\+\_\+mobile\+\_\+exist}} (QString mobile)
+\item 
+bool \mbox{\hyperlink{class_data_base_ade734a6a72553fbb48120add15900854}{professor\+\_\+email\+\_\+exist}} (QString email)
+\item 
+bool \mbox{\hyperlink{class_data_base_a6ff31c1ea7877d4c1680ebd23584919d}{valid\+\_\+string}} (QString text)
+\item 
+bool \mbox{\hyperlink{class_data_base_a065b65857d696c3592ba518ba51b69de}{valid\+\_\+int}} (QString text)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+QVector$<$ \mbox{\hyperlink{class_student}{Student}} $\ast$ $>$ \mbox{\hyperlink{class_data_base_ab1659005a03bfcf8e61c270b0c1ee66e}{students}}
+\item 
+QVector$<$ \mbox{\hyperlink{class_professor}{Professor}} $\ast$ $>$ \mbox{\hyperlink{class_data_base_aa5f13d2f87a8c035e8c44f84443ec16c}{professors}}
+\item 
+QVector$<$ \mbox{\hyperlink{class_admin}{Admin}} $>$ \mbox{\hyperlink{class_data_base_a6558c308d44c2473cb22c3f976d72748}{admin}}
+\item 
+QVector$<$ \mbox{\hyperlink{class_course}{Course}} $\ast$ $>$ \mbox{\hyperlink{class_data_base_a8f411b668191271ce6ae0351cfc9c79a}{courses}}
+\item 
+\mbox{\hyperlink{class_student}{Student}} $\ast$ \mbox{\hyperlink{class_data_base_ac68225da56a22d28b25ec93604eab47b}{ErrorS}} = new \mbox{\hyperlink{class_student}{Student}} (\char`\"{}\char`\"{},\char`\"{}\char`\"{},0,\char`\"{}\char`\"{},\char`\"{}\char`\"{},\char`\"{}\char`\"{},\char`\"{}\char`\"{},0)
+\item 
+\mbox{\hyperlink{class_professor}{Professor}} $\ast$ \mbox{\hyperlink{class_data_base_a947b6b8d8b08024919588130772f748e}{ErrorP}} = new \mbox{\hyperlink{class_professor}{Professor}} (\char`\"{}\char`\"{},\char`\"{}\char`\"{},0,\char`\"{}\char`\"{},\char`\"{}\char`\"{},\char`\"{}\char`\"{},\char`\"{}\char`\"{},\char`\"{}\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this is the brief description for the \mbox{\hyperlink{class_data_base}{Data\+Base}} class.
+
+this class is for \mbox{\hyperlink{class_data_base}{Data\+Base}} and all its basic information which consists of a number of vectors which are students, professors, admin and courses 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_data_base_a9fbd4936704ce4de391f92e92a072074}\label{class_data_base_a9fbd4936704ce4de391f92e92a072074}} 
+\index{DataBase@{DataBase}!DataBase@{DataBase}}
+\index{DataBase@{DataBase}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{DataBase()}{DataBase()}}
+{\footnotesize\ttfamily Data\+Base\+::\+Data\+Base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+default constructor some objects generated on the fly from student, professor, admin and course and are pushed into database vectors 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_data_base_a18edb4e330088744afbbb130d80b8afe}\label{class_data_base_a18edb4e330088744afbbb130d80b8afe}} 
+\index{DataBase@{DataBase}!f\_st\_in\_Table@{f\_st\_in\_Table}}
+\index{f\_st\_in\_Table@{f\_st\_in\_Table}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{f\_st\_in\_Table()}{f\_st\_in\_Table()}}
+{\footnotesize\ttfamily int Data\+Base\+::f\+\_\+st\+\_\+in\+\_\+\+Table (\begin{DoxyParamCaption}\item[{QString}]{y,  }\item[{QVector$<$ QString $>$}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that returns index of student in the table \begin{DoxyReturn}{Returns}
+index of student in the table 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em y} & describes student name searched for \\
+\hline
+{\em x} & describes vector of names of students in that table \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_ade734a6a72553fbb48120add15900854}\label{class_data_base_ade734a6a72553fbb48120add15900854}} 
+\index{DataBase@{DataBase}!professor\_email\_exist@{professor\_email\_exist}}
+\index{professor\_email\_exist@{professor\_email\_exist}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{professor\_email\_exist()}{professor\_email\_exist()}}
+{\footnotesize\ttfamily bool Data\+Base\+::professor\+\_\+email\+\_\+exist (\begin{DoxyParamCaption}\item[{QString}]{email }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that returns true if the professor\textquotesingle{}s email exists in the professors database vector else returns false \begin{DoxyReturn}{Returns}
+bool true if exists and false if not 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em email} & describes email of professor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_a48447584dec6bc1ac721ab5d82bbe2da}\label{class_data_base_a48447584dec6bc1ac721ab5d82bbe2da}} 
+\index{DataBase@{DataBase}!professor\_mobile\_exist@{professor\_mobile\_exist}}
+\index{professor\_mobile\_exist@{professor\_mobile\_exist}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{professor\_mobile\_exist()}{professor\_mobile\_exist()}}
+{\footnotesize\ttfamily bool Data\+Base\+::professor\+\_\+mobile\+\_\+exist (\begin{DoxyParamCaption}\item[{QString}]{mobile }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that returns true if the professor\textquotesingle{}s mobile exists in the professors database vector else returns false \begin{DoxyReturn}{Returns}
+bool true if exists and false if not 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em mobile} & describes mobile of professor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_a3a0fd55dad49a3ad89e3a641121f36a3}\label{class_data_base_a3a0fd55dad49a3ad89e3a641121f36a3}} 
+\index{DataBase@{DataBase}!professor\_username\_exist@{professor\_username\_exist}}
+\index{professor\_username\_exist@{professor\_username\_exist}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{professor\_username\_exist()}{professor\_username\_exist()}}
+{\footnotesize\ttfamily bool Data\+Base\+::professor\+\_\+username\+\_\+exist (\begin{DoxyParamCaption}\item[{QString}]{username }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that returns true if the professor\textquotesingle{}s username exists in the professors database vector else returns false \begin{DoxyReturn}{Returns}
+bool true if exists and false if not 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em username} & describes username of professor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_ab21ea5a68866778fafcd93a253514ebf}\label{class_data_base_ab21ea5a68866778fafcd93a253514ebf}} 
+\index{DataBase@{DataBase}!search\_for\_course@{search\_for\_course}}
+\index{search\_for\_course@{search\_for\_course}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{search\_for\_course()}{search\_for\_course()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_course}{Course}} $\ast$ Data\+Base\+::search\+\_\+for\+\_\+course (\begin{DoxyParamCaption}\item[{QString}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that returns course object from courses vector with the same name as the parameter \begin{DoxyReturn}{Returns}
+course object 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em s} & describes course name searched for \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_ad352f97a560365ba380300e29ca4e758}\label{class_data_base_ad352f97a560365ba380300e29ca4e758}} 
+\index{DataBase@{DataBase}!search\_for\_professor@{search\_for\_professor}}
+\index{search\_for\_professor@{search\_for\_professor}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{search\_for\_professor()}{search\_for\_professor()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_professor}{Professor}} $\ast$ Data\+Base\+::search\+\_\+for\+\_\+professor (\begin{DoxyParamCaption}\item[{QString}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that returns professor object from professors vector with the same name as the parameter \begin{DoxyReturn}{Returns}
+professor object 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em s} & describes professor name searched for \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_acaa88883d913c06bea65c74b1e8c2da9}\label{class_data_base_acaa88883d913c06bea65c74b1e8c2da9}} 
+\index{DataBase@{DataBase}!search\_for\_professorf@{search\_for\_professorf}}
+\index{search\_for\_professorf@{search\_for\_professorf}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{search\_for\_professorf()}{search\_for\_professorf()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_professor}{Professor}} $\ast$ Data\+Base\+::search\+\_\+for\+\_\+professorf (\begin{DoxyParamCaption}\item[{QString}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that returns professor object from professors vector with the same name as the parameter when both first and last names are concatenated \begin{DoxyReturn}{Returns}
+professor object 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em s} & describes professor name searched for \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_a71b65e71ae693ebf5644de45476d6ec7}\label{class_data_base_a71b65e71ae693ebf5644de45476d6ec7}} 
+\index{DataBase@{DataBase}!search\_for\_student@{search\_for\_student}}
+\index{search\_for\_student@{search\_for\_student}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{search\_for\_student()}{search\_for\_student()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_student}{Student}} $\ast$ Data\+Base\+::search\+\_\+for\+\_\+student (\begin{DoxyParamCaption}\item[{QString}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that returns student object from students vector with the same name as the parameter \begin{DoxyReturn}{Returns}
+student object 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em s} & describes student name searched for \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_a71898f1095d8a38bdfd892679e93df45}\label{class_data_base_a71898f1095d8a38bdfd892679e93df45}} 
+\index{DataBase@{DataBase}!search\_for\_studentf@{search\_for\_studentf}}
+\index{search\_for\_studentf@{search\_for\_studentf}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{search\_for\_studentf()}{search\_for\_studentf()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_student}{Student}} $\ast$ Data\+Base\+::search\+\_\+for\+\_\+studentf (\begin{DoxyParamCaption}\item[{QString}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that returns student object from students vector with the same name as the parameter when both first and last names are concatenated \begin{DoxyReturn}{Returns}
+student object 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em s} & describes student name searched for \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_acd3e7549d95c8ab1cbf79d104bb43622}\label{class_data_base_acd3e7549d95c8ab1cbf79d104bb43622}} 
+\index{DataBase@{DataBase}!student\_email\_exist@{student\_email\_exist}}
+\index{student\_email\_exist@{student\_email\_exist}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{student\_email\_exist()}{student\_email\_exist()}}
+{\footnotesize\ttfamily bool Data\+Base\+::student\+\_\+email\+\_\+exist (\begin{DoxyParamCaption}\item[{QString}]{email }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that returns true if the student\textquotesingle{}s email exists in the students database vector else returns false \begin{DoxyReturn}{Returns}
+bool true if exists and false if not 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em email} & describes email of student \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_a100ff2fde66b1351bc9e5cc1e88cbe47}\label{class_data_base_a100ff2fde66b1351bc9e5cc1e88cbe47}} 
+\index{DataBase@{DataBase}!student\_mobile\_exist@{student\_mobile\_exist}}
+\index{student\_mobile\_exist@{student\_mobile\_exist}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{student\_mobile\_exist()}{student\_mobile\_exist()}}
+{\footnotesize\ttfamily bool Data\+Base\+::student\+\_\+mobile\+\_\+exist (\begin{DoxyParamCaption}\item[{QString}]{mobile }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that returns true if the student\textquotesingle{}s mobile exists in the students database vector else returns false \begin{DoxyReturn}{Returns}
+bool true if exists and false if not 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em mobile} & describes mobile of student \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_ab101d82045e88b9c5b5bc3654c38c911}\label{class_data_base_ab101d82045e88b9c5b5bc3654c38c911}} 
+\index{DataBase@{DataBase}!student\_username\_exist@{student\_username\_exist}}
+\index{student\_username\_exist@{student\_username\_exist}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{student\_username\_exist()}{student\_username\_exist()}}
+{\footnotesize\ttfamily bool Data\+Base\+::student\+\_\+username\+\_\+exist (\begin{DoxyParamCaption}\item[{QString}]{username }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that returns true if the student\textquotesingle{}s username exists in the students database vector else returns false \begin{DoxyReturn}{Returns}
+bool true if exists and false if not 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em username} & describes username of student \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_a065b65857d696c3592ba518ba51b69de}\label{class_data_base_a065b65857d696c3592ba518ba51b69de}} 
+\index{DataBase@{DataBase}!valid\_int@{valid\_int}}
+\index{valid\_int@{valid\_int}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{valid\_int()}{valid\_int()}}
+{\footnotesize\ttfamily bool Data\+Base\+::valid\+\_\+int (\begin{DoxyParamCaption}\item[{QString}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that checks whether input is integer or not \begin{DoxyReturn}{Returns}
+bool true if it is a integer and else false 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em text} & describes input text \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_base_a6ff31c1ea7877d4c1680ebd23584919d}\label{class_data_base_a6ff31c1ea7877d4c1680ebd23584919d}} 
+\index{DataBase@{DataBase}!valid\_string@{valid\_string}}
+\index{valid\_string@{valid\_string}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{valid\_string()}{valid\_string()}}
+{\footnotesize\ttfamily bool Data\+Base\+::valid\+\_\+string (\begin{DoxyParamCaption}\item[{QString}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Brief desc
+
+function that checks whether input is string or not \begin{DoxyReturn}{Returns}
+bool true if it is a string and else false 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em text} & describes input text \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_data_base_a6558c308d44c2473cb22c3f976d72748}\label{class_data_base_a6558c308d44c2473cb22c3f976d72748}} 
+\index{DataBase@{DataBase}!admin@{admin}}
+\index{admin@{admin}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{admin}{admin}}
+{\footnotesize\ttfamily QVector$<$\mbox{\hyperlink{class_admin}{Admin}}$>$ Data\+Base\+::admin}
+
+\mbox{\Hypertarget{class_data_base_a8f411b668191271ce6ae0351cfc9c79a}\label{class_data_base_a8f411b668191271ce6ae0351cfc9c79a}} 
+\index{DataBase@{DataBase}!courses@{courses}}
+\index{courses@{courses}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{courses}{courses}}
+{\footnotesize\ttfamily QVector$<$\mbox{\hyperlink{class_course}{Course}}$\ast$$>$ Data\+Base\+::courses}
+
+\mbox{\Hypertarget{class_data_base_a947b6b8d8b08024919588130772f748e}\label{class_data_base_a947b6b8d8b08024919588130772f748e}} 
+\index{DataBase@{DataBase}!ErrorP@{ErrorP}}
+\index{ErrorP@{ErrorP}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{ErrorP}{ErrorP}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_professor}{Professor}}$\ast$ Data\+Base\+::\+ErrorP = new \mbox{\hyperlink{class_professor}{Professor}} (\char`\"{}\char`\"{},\char`\"{}\char`\"{},0,\char`\"{}\char`\"{},\char`\"{}\char`\"{},\char`\"{}\char`\"{},\char`\"{}\char`\"{},\char`\"{}\char`\"{})}
+
+\mbox{\Hypertarget{class_data_base_ac68225da56a22d28b25ec93604eab47b}\label{class_data_base_ac68225da56a22d28b25ec93604eab47b}} 
+\index{DataBase@{DataBase}!ErrorS@{ErrorS}}
+\index{ErrorS@{ErrorS}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{ErrorS}{ErrorS}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_student}{Student}}$\ast$ Data\+Base\+::\+ErrorS = new \mbox{\hyperlink{class_student}{Student}} (\char`\"{}\char`\"{},\char`\"{}\char`\"{},0,\char`\"{}\char`\"{},\char`\"{}\char`\"{},\char`\"{}\char`\"{},\char`\"{}\char`\"{},0)}
+
+\mbox{\Hypertarget{class_data_base_aa5f13d2f87a8c035e8c44f84443ec16c}\label{class_data_base_aa5f13d2f87a8c035e8c44f84443ec16c}} 
+\index{DataBase@{DataBase}!professors@{professors}}
+\index{professors@{professors}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{professors}{professors}}
+{\footnotesize\ttfamily QVector$<$\mbox{\hyperlink{class_professor}{Professor}}$\ast$$>$ Data\+Base\+::professors}
+
+\mbox{\Hypertarget{class_data_base_ab1659005a03bfcf8e61c270b0c1ee66e}\label{class_data_base_ab1659005a03bfcf8e61c270b0c1ee66e}} 
+\index{DataBase@{DataBase}!students@{students}}
+\index{students@{students}!DataBase@{DataBase}}
+\doxysubsubsection{\texorpdfstring{students}{students}}
+{\footnotesize\ttfamily QVector$<$\mbox{\hyperlink{class_student}{Student}}$\ast$$>$ Data\+Base\+::students}
+

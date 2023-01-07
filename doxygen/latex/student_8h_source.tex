@@ -1,0 +1,31 @@
+\hypertarget{student_8h_source}{}\doxysection{student.\+h}
+\label{student_8h_source}\index{C:/Users/moham/Downloads/drive-\/download-\/20230102T144703Z-\/001-\/20230102T173558Z-\/001/drive-\/download-\/20230102T144703Z-\/001/student.h@{C:/Users/moham/Downloads/drive-\/download-\/20230102T144703Z-\/001-\/20230102T173558Z-\/001/drive-\/download-\/20230102T144703Z-\/001/student.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include"{}person.h"{}}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include<map>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include<QString>}}
+\DoxyCodeLine{00005\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00006\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_course}{Course}};}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_student}{Student}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_person}{Person}}\ \{}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00014\ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ gradeyear;}
+\DoxyCodeLine{00015\ \ \ \ \ \ \ QVector<pair\ <Course*,int>>\ courses;}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00029\ \ \ \ \ \ \ \mbox{\hyperlink{class_student}{Student}}(QString\ fn\ ,\ QString\ ln\ ,\ \textcolor{keywordtype}{int}\ age\ ,\ QString\ mob\ ,QString\ em\ ,\ QString\ pass\ ,\ QString\ us\ ,\ \textcolor{keywordtype}{int}\ grdy);}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_student_a1289c95d2449d992cad65847098ece1c}{set\_gradeyear}}(\ \textcolor{keywordtype}{int}\ grdy);}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_student_a7f76ff65fa347fe03fb003e52ac1843b}{get\_gradeyear}}();}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00051\ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_student_a8e87958df8e67fe9c129f6c22c5a94a9}{set\_courses}}(\mbox{\hyperlink{class_course}{Course}}\ *c\ ,\ \textcolor{keywordtype}{int}\ grade);}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00058\ \ \ \ \ \ \ QVector<pair<Course*\ ,\ int>>\ \ \mbox{\hyperlink{class_student_a72e578ca4bb0a597fd920c84d63f7954}{get\_courses}}();}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00067\ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_student_aa74a4ba1aed3dfdb5f1767c79b7fc394}{updatec}}\ (\mbox{\hyperlink{class_course}{Course}}*c\ ,\ \textcolor{keywordtype}{int}\ grade,\ \textcolor{keywordtype}{int}\ index);}
+\DoxyCodeLine{00068\ \};}
+
+\end{DoxyCode}

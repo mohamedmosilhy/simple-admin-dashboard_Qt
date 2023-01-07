@@ -1,0 +1,184 @@
+\hypertarget{class_student}{}\doxysection{Student Class Reference}
+\label{class_student}\index{Student@{Student}}
+
+
+{\ttfamily \#include $<$student.\+h$>$}
+
+Inheritance diagram for Student\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_student}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_student_a1288ea8f4122dfb512bbf583569f2e41}{Student}} (QString fn, QString ln, int age, QString mob, QString em, QString pass, QString us, int grdy)
+\item 
+void \mbox{\hyperlink{class_student_a1289c95d2449d992cad65847098ece1c}{set\+\_\+gradeyear}} (int grdy)
+\item 
+int \mbox{\hyperlink{class_student_a7f76ff65fa347fe03fb003e52ac1843b}{get\+\_\+gradeyear}} ()
+\item 
+void \mbox{\hyperlink{class_student_a8e87958df8e67fe9c129f6c22c5a94a9}{set\+\_\+courses}} (\mbox{\hyperlink{class_course}{Course}} $\ast$c, int grade)
+\item 
+QVector$<$ pair$<$ \mbox{\hyperlink{class_course}{Course}} $\ast$, int $>$ $>$ \mbox{\hyperlink{class_student_a72e578ca4bb0a597fd920c84d63f7954}{get\+\_\+courses}} ()
+\item 
+void \mbox{\hyperlink{class_student_aa74a4ba1aed3dfdb5f1767c79b7fc394}{updatec}} (\mbox{\hyperlink{class_course}{Course}} $\ast$c, int grade, int index)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_person}{Person}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_person_a713cf786742743f7233eaa0c405e940e}{Person}} (QString f, QString l, int a, QString m, QString e, QString p, QString u)
+\item 
+void \mbox{\hyperlink{class_person_ab09a39604b80efc15b5c7060f19c69ee}{set\+\_\+firstname}} (QString fn)
+\item 
+QString \mbox{\hyperlink{class_person_a0975275606c343fa357feee37e50b638}{get\+\_\+firstname}} ()
+\item 
+void \mbox{\hyperlink{class_person_afba4f3284ab4838cd9cd923115257810}{set\+\_\+lastname}} (QString ln)
+\item 
+QString \mbox{\hyperlink{class_person_aad6d9f702b0c2c8593cfeeeef5a78695}{get\+\_\+lastname}} ()
+\item 
+void \mbox{\hyperlink{class_person_a6f595b05e50d8fedcc17f33db441512f}{set\+\_\+age}} (int ag)
+\item 
+int \mbox{\hyperlink{class_person_aca80d4f361d5ea23619ccddfdc393ad4}{get\+\_\+age}} ()
+\item 
+void \mbox{\hyperlink{class_person_adc2b2fa465414de4a5c876a0a7173986}{set\+\_\+mobile}} (QString mob)
+\item 
+QString \mbox{\hyperlink{class_person_a9e836bb88747b98f53d72f06b6ca21b3}{get\+\_\+mobile}} ()
+\item 
+void \mbox{\hyperlink{class_person_a84112b144f2d7baaddb055a71bf2e691}{set\+\_\+email}} (QString em)
+\item 
+QString \mbox{\hyperlink{class_person_a79b5fb550543bfdb8def2248e61351f7}{get\+\_\+email}} ()
+\item 
+void \mbox{\hyperlink{class_person_a88213f05361a8e1ee9c6286b0ba361ce}{set\+\_\+password}} (QString pass)
+\item 
+QString \mbox{\hyperlink{class_person_aa39282898395e484ca9ac3f87f51526d}{get\+\_\+password}} ()
+\item 
+void \mbox{\hyperlink{class_person_a9fabc8254bc14169bb2dbacaf1bc419d}{set\+\_\+username}} (QString un)
+\item 
+QString \mbox{\hyperlink{class_person_a24dd2528100473a8ff4c58802349a6ac}{get\+\_\+username}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this is the brief description for the student class.
+
+this class inherits person class and all his basic information which consist of his first name, last name, mobile, email, age, password and username in addition to grade year of the student, his courses and their grades 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_student_a1288ea8f4122dfb512bbf583569f2e41}\label{class_student_a1288ea8f4122dfb512bbf583569f2e41}} 
+\index{Student@{Student}!Student@{Student}}
+\index{Student@{Student}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{Student()}{Student()}}
+{\footnotesize\ttfamily Student\+::\+Student (\begin{DoxyParamCaption}\item[{QString}]{fn,  }\item[{QString}]{ln,  }\item[{int}]{age,  }\item[{QString}]{mob,  }\item[{QString}]{em,  }\item[{QString}]{pass,  }\item[{QString}]{us,  }\item[{int}]{grdy }\end{DoxyParamCaption})}
+
+Brief desc
+
+Parameterized constructor 
+\begin{DoxyParams}{Parameters}
+{\em fn} & describes first name of the student \\
+\hline
+{\em ln} & describes last name of the student \\
+\hline
+{\em age} & describes age of the student \\
+\hline
+{\em mob} & describes mobile of the student \\
+\hline
+{\em em} & describes email of the student \\
+\hline
+{\em pass} & describes password of the student \\
+\hline
+{\em us} & describes username of the student \\
+\hline
+{\em grdy} & describes grade year of the student \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_student_a72e578ca4bb0a597fd920c84d63f7954}\label{class_student_a72e578ca4bb0a597fd920c84d63f7954}} 
+\index{Student@{Student}!get\_courses@{get\_courses}}
+\index{get\_courses@{get\_courses}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{get\_courses()}{get\_courses()}}
+{\footnotesize\ttfamily QVector$<$ pair$<$ \mbox{\hyperlink{class_course}{Course}} $\ast$, int $>$ $>$ Student\+::get\+\_\+courses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that returns vector of pairs that contains courses and their grades \begin{DoxyReturn}{Returns}
+vector of pairs that contains courses and their grades 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_student_a7f76ff65fa347fe03fb003e52ac1843b}\label{class_student_a7f76ff65fa347fe03fb003e52ac1843b}} 
+\index{Student@{Student}!get\_gradeyear@{get\_gradeyear}}
+\index{get\_gradeyear@{get\_gradeyear}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{get\_gradeyear()}{get\_gradeyear()}}
+{\footnotesize\ttfamily int Student\+::get\+\_\+gradeyear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that returns grade year of the student \begin{DoxyReturn}{Returns}
+grade year 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_student_a8e87958df8e67fe9c129f6c22c5a94a9}\label{class_student_a8e87958df8e67fe9c129f6c22c5a94a9}} 
+\index{Student@{Student}!set\_courses@{set\_courses}}
+\index{set\_courses@{set\_courses}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{set\_courses()}{set\_courses()}}
+{\footnotesize\ttfamily void Student\+::set\+\_\+courses (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_course}{Course}} $\ast$}]{c,  }\item[{int}]{grade }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that stores course of the student and his grade in it \begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$c} & describes course of the student \\
+\hline
+{\em grade} & describes grade of the student \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_student_a1289c95d2449d992cad65847098ece1c}\label{class_student_a1289c95d2449d992cad65847098ece1c}} 
+\index{Student@{Student}!set\_gradeyear@{set\_gradeyear}}
+\index{set\_gradeyear@{set\_gradeyear}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{set\_gradeyear()}{set\_gradeyear()}}
+{\footnotesize\ttfamily void Student\+::set\+\_\+gradeyear (\begin{DoxyParamCaption}\item[{int}]{grdy }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that stores grade year of the student \begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em grdy} & describes grade year of the student \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_student_aa74a4ba1aed3dfdb5f1767c79b7fc394}\label{class_student_aa74a4ba1aed3dfdb5f1767c79b7fc394}} 
+\index{Student@{Student}!updatec@{updatec}}
+\index{updatec@{updatec}!Student@{Student}}
+\doxysubsubsection{\texorpdfstring{updatec()}{updatec()}}
+{\footnotesize\ttfamily void Student\+::updatec (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_course}{Course}} $\ast$}]{c,  }\item[{int}]{grade,  }\item[{int}]{index }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that updates course grade of student \begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$c} & describes the course object \\
+\hline
+{\em grade} & describes the course\textquotesingle{}s updated grade \\
+\hline
+{\em index} & describes the course\textquotesingle{}s index in the courses vector \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,301 @@
+\hypertarget{class_course}{}\doxysection{Course Class Reference}
+\label{class_course}\index{Course@{Course}}
+
+
+{\ttfamily \#include $<$course.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_course_a4c6e554e8b69b320cfaf5530b59d5fed}{Course}} (QString Course\+\_\+name, QString Course\+\_\+hall, QString Course\+\_\+time, QString Course\+\_\+code, int grade)
+\item 
+int \mbox{\hyperlink{class_course_a734ff643a2ae43f0e09e440f93291609}{get\+\_\+total\+\_\+grade}} ()
+\item 
+void \mbox{\hyperlink{class_course_adbb067654b8eb5b234c7a8c0a1382349}{set\+\_\+name}} (QString Course\+\_\+name)
+\item 
+void \mbox{\hyperlink{class_course_af8b65428c9ae6a8ec734efca06b90dfe}{set\+\_\+hall}} (QString Course\+\_\+hall)
+\item 
+void \mbox{\hyperlink{class_course_a6de67b7e33f40ea99cf57b4966437bcd}{set\+\_\+time}} (QString Course\+\_\+time)
+\item 
+void \mbox{\hyperlink{class_course_a1f901728345824aa71af40809e17ee88}{set\+\_\+code}} (QString Course\+\_\+code)
+\item 
+void \mbox{\hyperlink{class_course_adf0807dac341a1c5d50773dc7539e18a}{set\+\_\+prof}} (\mbox{\hyperlink{class_professor}{Professor}} $\ast$Course\+\_\+prof)
+\item 
+void \mbox{\hyperlink{class_course_a3a8f31aac0ca8fbb78100197a5fe5785}{set\+\_\+std}} (\mbox{\hyperlink{class_student}{Student}} $\ast$Course\+\_\+std, int grade)
+\item 
+QString \mbox{\hyperlink{class_course_ac00efcda7e4bbcbe257d4e2c22cd4399}{get\+\_\+name}} ()
+\item 
+QString \mbox{\hyperlink{class_course_a8cc40c7ce9905b819be0a25e350785b8}{get\+\_\+hall}} ()
+\item 
+QString \mbox{\hyperlink{class_course_ac8f55e96cc4655d4f4ca445a6dfa1f3c}{get\+\_\+time}} ()
+\item 
+QString \mbox{\hyperlink{class_course_a7c0f2dbded4ff85145ad2a5ebca7d060}{get\+\_\+code}} ()
+\item 
+QVector$<$ \mbox{\hyperlink{class_professor}{Professor}} $\ast$ $>$ \mbox{\hyperlink{class_course_a7e5528299d88e3f5bd24837646502bec}{get\+\_\+prof}} ()
+\item 
+QVector$<$ pair$<$ \mbox{\hyperlink{class_student}{Student}} $\ast$, int $>$ $>$ \mbox{\hyperlink{class_course_aadb9818402dca82713ddca87d140547b}{get\+\_\+std}} ()
+\item 
+void \mbox{\hyperlink{class_course_a8ffe1a76bd36bdbf74622cf8aa1f6b69}{update}} (\mbox{\hyperlink{class_student}{Student}} $\ast$Course\+\_\+std, int grade, int index)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this is the brief description for the \mbox{\hyperlink{class_course}{Course}} class.
+
+this class is for \mbox{\hyperlink{class_course}{Course}} and all his basic information which consist of its total grade, name, hall, time, code, vector of professors and vector of students 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_course_a4c6e554e8b69b320cfaf5530b59d5fed}\label{class_course_a4c6e554e8b69b320cfaf5530b59d5fed}} 
+\index{Course@{Course}!Course@{Course}}
+\index{Course@{Course}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{Course()}{Course()}}
+{\footnotesize\ttfamily Course\+::\+Course (\begin{DoxyParamCaption}\item[{QString}]{Course\+\_\+name,  }\item[{QString}]{Course\+\_\+hall,  }\item[{QString}]{Course\+\_\+time,  }\item[{QString}]{Course\+\_\+code,  }\item[{int}]{grade }\end{DoxyParamCaption})}
+
+Brief desc
+
+Parameterized constructor 
+\begin{DoxyParams}{Parameters}
+{\em Course\+\_\+name} & describes name of the course \\
+\hline
+{\em Course\+\_\+hall} & describes hall location of the course \\
+\hline
+{\em Course\+\_\+time} & describes time of the course \\
+\hline
+{\em Course\+\_\+code} & describes code of the course \\
+\hline
+{\em grade} & describes total grade of the course \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_course_a7c0f2dbded4ff85145ad2a5ebca7d060}\label{class_course_a7c0f2dbded4ff85145ad2a5ebca7d060}} 
+\index{Course@{Course}!get\_code@{get\_code}}
+\index{get\_code@{get\_code}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{get\_code()}{get\_code()}}
+{\footnotesize\ttfamily QString Course\+::get\+\_\+code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that returns the code of the course \begin{DoxyReturn}{Returns}
+code 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_a8cc40c7ce9905b819be0a25e350785b8}\label{class_course_a8cc40c7ce9905b819be0a25e350785b8}} 
+\index{Course@{Course}!get\_hall@{get\_hall}}
+\index{get\_hall@{get\_hall}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{get\_hall()}{get\_hall()}}
+{\footnotesize\ttfamily QString Course\+::get\+\_\+hall (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that returns the hall location of the course \begin{DoxyReturn}{Returns}
+hall 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_ac00efcda7e4bbcbe257d4e2c22cd4399}\label{class_course_ac00efcda7e4bbcbe257d4e2c22cd4399}} 
+\index{Course@{Course}!get\_name@{get\_name}}
+\index{get\_name@{get\_name}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{get\_name()}{get\_name()}}
+{\footnotesize\ttfamily QString Course\+::get\+\_\+name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that returns the name of the course \begin{DoxyReturn}{Returns}
+name 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_a7e5528299d88e3f5bd24837646502bec}\label{class_course_a7e5528299d88e3f5bd24837646502bec}} 
+\index{Course@{Course}!get\_prof@{get\_prof}}
+\index{get\_prof@{get\_prof}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{get\_prof()}{get\_prof()}}
+{\footnotesize\ttfamily QVector$<$ \mbox{\hyperlink{class_professor}{Professor}} $\ast$ $>$ Course\+::get\+\_\+prof (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that returns the professors that teach the course \begin{DoxyReturn}{Returns}
+professors vector 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_aadb9818402dca82713ddca87d140547b}\label{class_course_aadb9818402dca82713ddca87d140547b}} 
+\index{Course@{Course}!get\_std@{get\_std}}
+\index{get\_std@{get\_std}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{get\_std()}{get\_std()}}
+{\footnotesize\ttfamily QVector$<$ pair$<$ \mbox{\hyperlink{class_student}{Student}} $\ast$, int $>$ $>$ Course\+::get\+\_\+std (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that returns the students that attend the course and their grades \begin{DoxyReturn}{Returns}
+students vector of pairs 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_ac8f55e96cc4655d4f4ca445a6dfa1f3c}\label{class_course_ac8f55e96cc4655d4f4ca445a6dfa1f3c}} 
+\index{Course@{Course}!get\_time@{get\_time}}
+\index{get\_time@{get\_time}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{get\_time()}{get\_time()}}
+{\footnotesize\ttfamily QString Course\+::get\+\_\+time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that returns the time of the course \begin{DoxyReturn}{Returns}
+time 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_a734ff643a2ae43f0e09e440f93291609}\label{class_course_a734ff643a2ae43f0e09e440f93291609}} 
+\index{Course@{Course}!get\_total\_grade@{get\_total\_grade}}
+\index{get\_total\_grade@{get\_total\_grade}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{get\_total\_grade()}{get\_total\_grade()}}
+{\footnotesize\ttfamily int Course\+::get\+\_\+total\+\_\+grade (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that returns the total grade of the course \begin{DoxyReturn}{Returns}
+total grade 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Nothing} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_a1f901728345824aa71af40809e17ee88}\label{class_course_a1f901728345824aa71af40809e17ee88}} 
+\index{Course@{Course}!set\_code@{set\_code}}
+\index{set\_code@{set\_code}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{set\_code()}{set\_code()}}
+{\footnotesize\ttfamily void Course\+::set\+\_\+code (\begin{DoxyParamCaption}\item[{QString}]{Course\+\_\+code }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that stores the code of the course \begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Course\+\_\+code} & describes code of the course \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_af8b65428c9ae6a8ec734efca06b90dfe}\label{class_course_af8b65428c9ae6a8ec734efca06b90dfe}} 
+\index{Course@{Course}!set\_hall@{set\_hall}}
+\index{set\_hall@{set\_hall}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{set\_hall()}{set\_hall()}}
+{\footnotesize\ttfamily void Course\+::set\+\_\+hall (\begin{DoxyParamCaption}\item[{QString}]{Course\+\_\+hall }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that stores the hall location of the course \begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Course\+\_\+hall} & describes hall location of the course \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_adbb067654b8eb5b234c7a8c0a1382349}\label{class_course_adbb067654b8eb5b234c7a8c0a1382349}} 
+\index{Course@{Course}!set\_name@{set\_name}}
+\index{set\_name@{set\_name}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{set\_name()}{set\_name()}}
+{\footnotesize\ttfamily void Course\+::set\+\_\+name (\begin{DoxyParamCaption}\item[{QString}]{Course\+\_\+name }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that stores the name of the course \begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Course\+\_\+name} & describes name of the course \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_adf0807dac341a1c5d50773dc7539e18a}\label{class_course_adf0807dac341a1c5d50773dc7539e18a}} 
+\index{Course@{Course}!set\_prof@{set\_prof}}
+\index{set\_prof@{set\_prof}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{set\_prof()}{set\_prof()}}
+{\footnotesize\ttfamily void Course\+::set\+\_\+prof (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_professor}{Professor}} $\ast$}]{Course\+\_\+prof }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that stores the professors that teach the course \begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Course\+\_\+prof} & describes the professor object \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_a3a8f31aac0ca8fbb78100197a5fe5785}\label{class_course_a3a8f31aac0ca8fbb78100197a5fe5785}} 
+\index{Course@{Course}!set\_std@{set\_std}}
+\index{set\_std@{set\_std}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{set\_std()}{set\_std()}}
+{\footnotesize\ttfamily void Course\+::set\+\_\+std (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_student}{Student}} $\ast$}]{Course\+\_\+std,  }\item[{int}]{grade }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that stores the students of the course and their grades \begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Course\+\_\+std} & describes the student object \\
+\hline
+{\em grade} & describes the student grade in the course \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_a6de67b7e33f40ea99cf57b4966437bcd}\label{class_course_a6de67b7e33f40ea99cf57b4966437bcd}} 
+\index{Course@{Course}!set\_time@{set\_time}}
+\index{set\_time@{set\_time}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{set\_time()}{set\_time()}}
+{\footnotesize\ttfamily void Course\+::set\+\_\+time (\begin{DoxyParamCaption}\item[{QString}]{Course\+\_\+time }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that stores the time of the course \begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em Course\+\_\+time} & describes time of the course \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_course_a8ffe1a76bd36bdbf74622cf8aa1f6b69}\label{class_course_a8ffe1a76bd36bdbf74622cf8aa1f6b69}} 
+\index{Course@{Course}!update@{update}}
+\index{update@{update}!Course@{Course}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Course\+::update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_student}{Student}} $\ast$}]{Course\+\_\+std,  }\item[{int}]{grade,  }\item[{int}]{index }\end{DoxyParamCaption})}
+
+Brief desc
+
+function that updates course grade of student \begin{DoxyReturn}{Returns}
+Nothing 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Course\+\_\+std} & describes the student object \\
+\hline
+{\em grade} & describes the student\textquotesingle{}s updated grade \\
+\hline
+{\em index} & describes the student\textquotesingle{}s index in the students vector \\
+\hline
+\end{DoxyParams}

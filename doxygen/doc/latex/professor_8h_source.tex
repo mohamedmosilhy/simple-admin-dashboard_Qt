@@ -1,0 +1,33 @@
+\hypertarget{professor_8h_source}{}\doxysection{professor.\+h}
+\label{professor_8h_source}\index{C:/Users/moham/Downloads/drive-\/download-\/20230102T144703Z-\/001-\/20230102T173558Z-\/001/drive-\/download-\/20230102T144703Z-\/001/professor.h@{C:/Users/moham/Downloads/drive-\/download-\/20230102T144703Z-\/001-\/20230102T173558Z-\/001/drive-\/download-\/20230102T144703Z-\/001/professor.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ PROFESSOR\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ PROFESSOR\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include<QString>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include<vector>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include"{}person.h"{}}}
+\DoxyCodeLine{00008\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_course}{Course}};}
+\DoxyCodeLine{00015\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_professor}{Professor}}\ :\textcolor{keyword}{public}\ \mbox{\hyperlink{class_person}{Person}}\{}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00017\ \ \ \ \ \ \ \ \ QString\ title;}
+\DoxyCodeLine{00018\ \ \ \ \ \ \ \ \ QVector<Course*>\ course;}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00031\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_professor}{Professor}}\ (QString\ fn,\ QString\ ln,\ \textcolor{keywordtype}{int}\ age,\ QString\ mob,\ QString\ em,\ QString\ pass,\ QString\ us,\ QString\ prof\_title);}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_professor_ae21e9cfe16c7ba5fb749a4ec71c6b95f}{set\_title}}(QString\ prof\_title);}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00045\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_professor_a132239cf6c0555a1038ce0a5167f9458}{set\_course}}(\mbox{\hyperlink{class_course}{Course}}\ *prof\_course);}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00052\ \ \ \ \ \ \ \ \ QString\ \mbox{\hyperlink{class_professor_af99b2eba090270774a294668a2f5084d}{get\_title}}();}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00059\ \ \ \ \ \ \ \ \ QVector<Course*>\ \mbox{\hyperlink{class_professor_a76d236f113d757b8b51715064c6a50f9}{get\_course}}();}
+\DoxyCodeLine{00060\ \};}
+\DoxyCodeLine{00061\ }
+\DoxyCodeLine{00062\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ PROFESSOR\_H}}
+
+\end{DoxyCode}
